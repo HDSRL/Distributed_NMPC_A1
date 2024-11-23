@@ -1,0 +1,15 @@
+☐ Literature review on Concencus-protocols
+
+☐ Enable full-state feedback in `nmpc.cpp`
+
+☐ Implement CBF for agent-agent collision avoidance
+
+☐ Tune CBF parameters
+
+☐ Implement consensus-protocol in `nmpc.cpp`
+
+☐ Implement rotation in planner()
+
+☐ Verify that all logging is working correctly - experiment ready
+
+☐ Enable setDesForce() in `VirtualConstraints.hpp`

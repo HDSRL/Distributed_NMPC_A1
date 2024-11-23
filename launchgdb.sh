@@ -1,0 +1,1 @@
+./cmakemake & gdb ./build/Run_Sim

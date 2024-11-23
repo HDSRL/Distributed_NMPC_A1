@@ -1,0 +1,5 @@
+build/
+Sim_Outputs/matlab_scripts/*.txt
+matlab_scripts/*.txt
+matlab_scripts/**/*.txt
+output.txt

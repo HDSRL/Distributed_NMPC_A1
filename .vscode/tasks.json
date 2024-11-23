@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Run_Sim",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "-j16"  // Use 16 cores for the build
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/build"  // Set working directory to build folder
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        }
+    ]
+}
