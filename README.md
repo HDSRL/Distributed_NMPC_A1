@@ -42,13 +42,27 @@ cd A1_Robot/build
 Finally, there are several different checkerboard colors provided in the material file (rsc/material/myMaterials.material) and can be changed in the A1_Sim.cpp file. To generate a different cherckerboard color pattern, use the MATLAB script (rsc/material/ColoredChecker.m) and create a new material in myMaterials.material following the same convention as the other checkerboard materials.
 
 # Citation
-This work has been featured as  in ASME Journal of Dynamic Systems, Measurements, and Control in November 2024 with the paper title: 
-[A Distributed Layered Planning and Control Algorithm for Teams of Quadrupedal Robots: An Obstacle-Aware Nonlinear Model Predictive Control Approach](https://asmedigitalcollection.asme.org/dynamicsystems/article-abstract/147/3/031006/1206862/A-Distributed-Layered-Planning-and-Control?redirectedFrom=fulltext)
+This work has been featured as  in ASME Journal of Dynamic Systems, Measurements, and Control in November 2024: 
+[Imran, B. M., Fawcett, R. T., Kim, J., Leonessa, A., and Hamed, K. A. (October 23, 2024). "A Distributed Layered Planning and Control Algorithm for Teams of Quadrupedal Robots: An Obstacle-Aware Nonlinear Model Predictive Control Approach." ASME. J. Dyn. Sys., Meas., Control. May 2025; 147(3): 031006. https://doi.org/10.1115/1.4066632](https://asmedigitalcollection.asme.org/dynamicsystems/article-abstract/147/3/031006/1206862/A-Distributed-Layered-Planning-and-Control?redirectedFrom=fulltext)
 
 If you benefit from the code or work, please remember to cite us:
 ```
-Imran, B. M., Fawcett, R. T., Kim, J., Leonessa, A., and Hamed, K. A. (October 23, 2024). "A Distributed Layered Planning and Control Algorithm for Teams of Quadrupedal Robots: An Obstacle-Aware Nonlinear Model Predictive Control Approach." ASME. J. Dyn. Sys., Meas., Control. May 2025; 147(3): 031006. https://doi.org/10.1115/1.4066632
+@article{10.1115/1.4066632,
+    author = {Imran, Basit Muhammad and Fawcett, Randall T. and Kim, Jeeseop and Leonessa, Alexander and Hamed, Kaveh Akbari},
+    title = {A Distributed Layered Planning and Control Algorithm for Teams of Quadrupedal Robots: An Obstacle-Aware Nonlinear Model Predictive Control Approach},
+    journal = {Journal of Dynamic Systems, Measurement, and Control},
+    volume = {147},
+    number = {3},
+    pages = {031006},
+    year = {2024},
+    month = {10},
+    issn = {0022-0434},
+    doi = {10.1115/1.4066632},
+    url = {https://doi.org/10.1115/1.4066632},
+    eprint = {https://asmedigitalcollection.asme.org/dynamicsystems/article-pdf/147/3/031006/7390960/ds\_147\_03\_031006.pdf},
+}
 ```
 
+# YouTube video
 The YouTube link for the experiments and simulations is [here](https://youtu.be/hwEhA7JCXAU?feature=shared).
 
